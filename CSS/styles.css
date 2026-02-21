@@ -1,0 +1,47 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+:root{ /*Asi se crean variables*/
+  --text: #fff0000;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #8e9cc4;
+  color: var(--text); /*de esta manera se llaman variables */
+
+}
+
+.header{
+  max-width: 860px;
+  margin:0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center ;
+}
+
+h1{
+  font-size:1.5rem;
+  font-weight:700;
+  color: var(--text);
+}
+
+.opciones-nav {
+ display: flex;
+ background-color: aliceblue;
+ border: 1px solid greenyellow;
+ border-radius: 10px;
+ padding: 0.25rem;
+ max-width: 520px;
+ margin: 0 auto 1.5rem;
+}
